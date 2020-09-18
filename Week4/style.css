@@ -1,0 +1,39 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.nyc {
+    width: 300px;
+    height: 250px;
+    float: left;
+    
+}
+.navbar {
+    position: fixed;
+    background-color: rgb(8, 93, 150);
+    width: 100%;
+    color: white;
+
+}
+.navbar a:visited{
+    color: white;
+}
+.blog {
+    text-align: center;
+    width: 100%;
+    border: 5px solid blanchedalmond;
+    outline-style: solid blanchedalmond;
+    
+}
+
+.homes {
+    float: left;
+    width: 300px;
+    height: 250px;
+    float: left;
+}
+.home {
+    color: white;
+    display: block;
+    padding: 30px;
+}
