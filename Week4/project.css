@@ -1,0 +1,56 @@
+.nav {
+    background-color: rgb(160, 7, 17);
+    overflow: hidden;
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: rgb(22, 125, 242);
+    color: black;
+  }
+  
+  .nav a.home {
+    background-color: rgb(12, 114, 191);
+    color: blanchedalmond;
+  }
+  .header{
+      color:rgb(0, 49, 123);
+  }
+  .mc{
+      width: 450px;
+      height: 300px;
+      padding: 15px;
+  }
+  h3{
+      font-family: fantasy;
+      color: rgba(87, 82, 82, 0.858);
+      text-decoration: underline;
+      
+  }
+  table, th, td {
+    border: 2px solid black;
+  }
+  p {
+      float: right;
+      margin: 15px;
+      font-family: 'Ranchers', cursive;
+
+  }
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(12, 114, 191);
+    color: white;
+    text-align: center;
+ }
