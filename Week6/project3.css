@@ -1,0 +1,224 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: rgb(73, 149, 206);
+  grid-gap: 1px;
+  padding: 1px;
+
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .home,.buy,.rent,.sell{
+      grid-column-start: 1;
+      grid-column-end: 5;
+  }
+  
+.home:hover,.buy:hover , .rent:hover, .sell:hover{
+  font-size: 30px;
+  color: rgb(155, 50, 50);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: underline;
+    
+}
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgb(73, 149, 206);
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(155, 50, 50);
+    text-decoration: underline;
+
+    
+}
+h2{
+    color: rgb(155, 50, 50);
+
+}
+
+.fav{
+    text-decoration: underline;
+}
+#color{
+    color:rgb(0, 72, 128);
+    
+}
+
+.search {
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    border: solid 1px black;
+    font-size: 15px;
+    border-radius: 30px;
+
+}
+
+#center{
+    text-align: center;
+    
+}
+
+  .background{
+    position: sticky;
+    height: 500px;
+    width: 1000px;
+    
+  }
+ 
+
+  table, th {
+    border: 1px solid rgb(73, 149, 206);
+    text-align: center;
+    color: rgb(155, 50, 50);
+
+  }
+  td{
+    border: 1px solid rgb(73, 149, 206);
+    text-align: center;
+      color: black;
+  }
+  
+  img{
+      float: center;
+  }
+
+  .img2 {
+      height: 300px;
+      width: 400px;
+    
+  }
+  .space{
+      padding: 10px;
+      margin: 50px;
+      border: 50px;
+  }
+
+  p{
+    font-family: 'Sansita Swashed', cursive;
+  
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+color: rgb(155, 50, 50);
+
+  }
+
+  .flex-container > div {
+    background-color: rgb(73, 149, 206);
+    margin: 10px;
+    padding: 100px;
+    height: 100px;
+    font-size: 15px;
+    
+  }
+/* Mobile */
+
+  @media (min-width: 368px){
+    .home,.buy,.rent,.sell{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .flex-container > div {
+        background-color: rgb(73, 149, 206);
+        margin: 15px;
+        padding: 50px;
+        height: 50px;
+        font-size: 30px;
+        
+      }
+  }
+/* Tablet */
+
+  @media (min-width: 679px){
+    .home{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        
+    }
+
+    .buy{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      
+    }
+    .rent{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      
+    }
+    .sell{
+      grid-column-start: 4;
+      grid-column-end: 5;
+     
+    }
+.img2{
+  height: 300px;
+        width: 600px;
+        float: inline-start;
+}
+.flex-container > div {
+    background-color: rgb(73, 149, 206);
+    margin: 15px;
+    padding: 30px;
+    height: 70px;
+    font-size: 30px;
+    
+  }
+ }
+
+/* Laptop */
+
+  @media only screen and (min-width: 968px){
+      .home{
+          grid-column-start: 1;
+          grid-column-end: 2;
+          
+      }
+
+      .buy{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+      }
+      .rent{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        
+      }
+      .sell{
+        grid-column-start: 4;
+        grid-column-end: 5;
+       
+      }
+.img2{
+    height: 500px;
+          width: 800px;
+          float: right;
+}
+.flex-container > div {
+    background-color: rgb(73, 149, 206);
+    margin: 15px;
+    padding: 100px;
+    height: 100px;
+    font-size: 30px;
+    
+  }
+  }
